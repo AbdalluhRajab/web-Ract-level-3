@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # StockFlow - Advanced React Inventory & Sales Dashboard
 
 StockFlow is a production-style React capstone that solves the Level 3 assignment as one cohesive application. It includes the public shop, protected administration workspace, role-based permissions, reusable CRUD modules, analytics, notifications, async correctness demonstrations, and written solutions.
@@ -93,3 +94,6 @@ src/
 ```
 
 All API behavior is intentionally simulated so the repository runs without a backend. Data is stored in browser `localStorage`; use **Settings -> Reset demo data** to restore the original records.
+=======
+# web-Ract-level-3
+>>>>>>> b39bd551fc3b728504ffd19b06785c132f795393
