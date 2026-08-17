@@ -1,0 +1,31 @@
+{
+  "name": "stockflow-inventory-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "build:vite": "vite build",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test --test-isolation=none",
+    "test:watch": "node --test --test-isolation=none --watch",
+    "check": "npm run test && npm run build"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-react-jsx": "^7.25.9",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "rollup": "^4.28.1",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
